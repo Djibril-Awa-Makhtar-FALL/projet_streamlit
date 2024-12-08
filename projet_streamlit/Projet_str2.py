@@ -4,12 +4,12 @@ import joblib
 
 # Charger le modèle
 #model_path = r"C:\Users\DELL\Desktop\streamlit\classifier.pkl"
-model_path = r"classifier.pkl"
+model_path = "classifier.pkl"
 model = joblib.load(model_path)
 
 # Charger les encodeurs
 #label_encoders_path = r"C:\Users\DELL\Desktop\streamlit\label_encoders2.pkl"
-label_encoders_path = r"label_encoders2.pkl"
+label_encoders_path = "label_encoders2.pkl"
 label_encoders_path = joblib.load(label_encoders_path)
 
 # Titre de l'application
